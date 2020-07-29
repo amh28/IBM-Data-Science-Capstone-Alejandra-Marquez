@@ -1,0 +1,1 @@
+without_mask 70 8 243 205

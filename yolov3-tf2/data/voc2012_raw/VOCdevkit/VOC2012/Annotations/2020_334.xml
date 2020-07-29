@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Folder</folder>
+	<filename>2020_334.jpg</filename>
+	<path>/home/marqueza/Downloads/labelImg-master/Folder/2020_334.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>643</width>
+		<height>375</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>with_mask</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>207</xmin>
+			<ymin>16</ymin>
+			<xmax>440</xmax>
+			<ymax>316</ymax>
+		</bndbox>
+	</object>
+</annotation>

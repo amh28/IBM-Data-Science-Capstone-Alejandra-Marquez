@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Folder</folder>
+	<filename>2020_379.jpg</filename>
+	<path>/home/marqueza/Downloads/labelImg-master/Folder/2020_379.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>480</width>
+		<height>260</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>with_mask</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>211</xmin>
+			<ymin>4</ymin>
+			<xmax>321</xmax>
+			<ymax>96</ymax>
+		</bndbox>
+	</object>
+</annotation>

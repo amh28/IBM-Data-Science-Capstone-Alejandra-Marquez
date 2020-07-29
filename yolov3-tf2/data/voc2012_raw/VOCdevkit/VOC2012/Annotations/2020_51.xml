@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Folder</folder>
+	<filename>2020_51.jpg</filename>
+	<path>/home/marqueza/Downloads/labelImg-master/Folder/2020_51.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>2500</width>
+		<height>1666</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>with_mask</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1318</xmin>
+			<ymin>120</ymin>
+			<xmax>1774</xmax>
+			<ymax>526</ymax>
+		</bndbox>
+	</object>
+</annotation>

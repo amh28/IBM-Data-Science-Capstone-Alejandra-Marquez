@@ -1,0 +1,1 @@
+without_mask 251 30 289 76

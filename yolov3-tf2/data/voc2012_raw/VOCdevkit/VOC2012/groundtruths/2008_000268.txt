@@ -1,0 +1,2 @@
+without_mask 33 1 165 95
+without_mask 172 36 275 155

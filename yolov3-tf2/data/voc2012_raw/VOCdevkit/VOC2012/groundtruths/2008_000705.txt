@@ -1,0 +1,1 @@
+without_mask 211 1 280 62

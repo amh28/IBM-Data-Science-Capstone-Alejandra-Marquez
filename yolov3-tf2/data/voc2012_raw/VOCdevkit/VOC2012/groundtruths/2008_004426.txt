@@ -1,0 +1,1 @@
+without_mask 58 39 248 248

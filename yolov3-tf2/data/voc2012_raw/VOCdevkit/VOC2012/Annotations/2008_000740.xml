@@ -1,0 +1,37 @@
+<annotation>
+  <filename>2008_000740.jpg</filename>
+  <folder>VOC2012</folder>
+  <object>
+    <bndbox>
+      <xmax>278</xmax>
+      <xmin>40</xmin>
+      <ymax>263</ymax>
+      <ymin>10</ymin>
+    </bndbox>
+    <difficult>0</difficult>
+    <name>person</name>
+    <occluded>0</occluded>
+    <part>
+      <bndbox>
+        <xmax>216</xmax>
+        <xmin>165</xmin>
+        <ymax>262</ymax>
+        <ymin>219</ymin>
+      </bndbox>
+      <name>hand</name>
+    </part>
+    <pose>Frontal</pose>
+    <truncated>0</truncated>
+  </object>
+  <segmented>0</segmented>
+  <size>
+    <depth>3</depth>
+    <height>480</height>
+    <width>320</width>
+  </size>
+  <source>
+    <annotation>PASCAL VOC2008</annotation>
+    <database>The VOC2008 Database</database>
+    <image>flickr</image>
+  </source>
+</annotation>

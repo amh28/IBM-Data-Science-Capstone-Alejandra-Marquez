@@ -1,0 +1,2 @@
+without_mask 0.4 359 85 459 187
+without_mask 0.29 62 111 189 220

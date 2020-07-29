@@ -1,0 +1,2 @@
+with_mask 73 58 121 109
+with_mask 247 40 304 94

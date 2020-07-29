@@ -1,0 +1,2 @@
+without_mask 202 180 225 202
+without_mask 1 178 10 203

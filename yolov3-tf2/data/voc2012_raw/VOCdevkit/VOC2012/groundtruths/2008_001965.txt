@@ -1,0 +1,1 @@
+without_mask 93 1 206 129

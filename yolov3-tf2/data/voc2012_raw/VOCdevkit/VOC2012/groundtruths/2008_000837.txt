@@ -1,0 +1,1 @@
+without_mask 206 9 264 71

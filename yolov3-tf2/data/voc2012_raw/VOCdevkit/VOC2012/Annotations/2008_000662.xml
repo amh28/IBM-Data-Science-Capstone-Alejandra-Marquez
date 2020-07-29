@@ -1,0 +1,37 @@
+<annotation>
+  <filename>2008_000662.jpg</filename>
+  <folder>VOC2012</folder>
+  <object>
+    <bndbox>
+      <xmax>442</xmax>
+      <xmin>82</xmin>
+      <ymax>294</ymax>
+      <ymin>35</ymin>
+    </bndbox>
+    <difficult>0</difficult>
+    <name>person</name>
+    <occluded>1</occluded>
+    <part>
+      <bndbox>
+        <xmax>437</xmax>
+        <xmin>391</xmin>
+        <ymax>242</ymax>
+        <ymin>202</ymin>
+      </bndbox>
+      <name>foot</name>
+    </part>
+    <pose>Right</pose>
+    <truncated>0</truncated>
+  </object>
+  <segmented>1</segmented>
+  <size>
+    <depth>3</depth>
+    <height>333</height>
+    <width>500</width>
+  </size>
+  <source>
+    <annotation>PASCAL VOC2008</annotation>
+    <database>The VOC2008 Database</database>
+    <image>flickr</image>
+  </source>
+</annotation>

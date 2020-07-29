@@ -1,0 +1,1 @@
+without_mask 124 6 432 335

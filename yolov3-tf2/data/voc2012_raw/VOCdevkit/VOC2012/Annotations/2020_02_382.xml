@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Folder chinitos</folder>
+	<filename>2020_02_382.png</filename>
+	<path>/home/marqueza/Downloads/labelImg-master/Folder chinitos/2020_02_382.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>615</width>
+		<height>683</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>with_mask</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>186</xmin>
+			<ymin>156</ymin>
+			<xmax>391</xmax>
+			<ymax>410</ymax>
+		</bndbox>
+	</object>
+</annotation>

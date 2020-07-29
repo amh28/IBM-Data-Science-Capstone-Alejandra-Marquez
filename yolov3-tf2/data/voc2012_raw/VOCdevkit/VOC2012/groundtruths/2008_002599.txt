@@ -1,0 +1,1 @@
+without_mask 64 40 264 261

@@ -1,0 +1,2 @@
+without_mask 64 57 196 231
+without_mask 365 71 498 231

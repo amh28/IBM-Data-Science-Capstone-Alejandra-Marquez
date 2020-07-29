@@ -1,0 +1,1 @@
+without_mask 271 36 301 63

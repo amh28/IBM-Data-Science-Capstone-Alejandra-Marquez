@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Folder</folder>
+	<filename>2008_001320.jpg</filename>
+	<path>/home/marqueza/Downloads/labelImg-master/Folder/2008_001320.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>480</width>
+		<height>360</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>without_mask</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>215</xmin>
+			<ymin>26</ymin>
+			<xmax>268</xmax>
+			<ymax>89</ymax>
+		</bndbox>
+	</object>
+</annotation>

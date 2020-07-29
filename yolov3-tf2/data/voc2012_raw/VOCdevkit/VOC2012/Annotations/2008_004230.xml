@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Pascal left</folder>
+	<filename>2008_004230.jpg</filename>
+	<path>/home/marqueza/Downloads/labelImg-master/Pascal left/2008_004230.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>500</width>
+		<height>335</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>without_mask</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>283</xmin>
+			<ymin>68</ymin>
+			<xmax>339</xmax>
+			<ymax>138</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Folder</folder>
+	<filename>2007_000272.jpg</filename>
+	<path>/home/marqueza/Downloads/labelImg-master/Folder/2007_000272.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>333</width>
+		<height>500</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>without_mask</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>129</xmin>
+			<ymin>74</ymin>
+			<xmax>264</xmax>
+			<ymax>236</ymax>
+		</bndbox>
+	</object>
+</annotation>
