@@ -47,19 +47,45 @@ Despite the fact that there exists Face mask datasets depicting only the faces o
 
 - The weights I obtained after training, which I also used for inference and for creating the demo video from above, is on the checkpoints/ directory called: yolov3_train_125.tf
 
-- After adding and replacing those files, you can perform inference on an Image using the following command:
+- After adding and replacing those files, you can perform inference on an Image. Here are some examples:
 
-!python detect.py \
- --classes ./data/voc2012.names \
- --num_classes 3 \
- --weights ./checkpoints/**yolov3_train_125.tf** \
- --image ./data/**NAME_OF_YOUR_IMAGE** \
- **--yolo_max_boxes 300** \
- --yolo_iou_threshold 0.3\
- --yolo_score_threshold 0.3
+python detect.py \
+--classes ./data/voc2012.names \
+--num_classes 3 \
+--weights ./checkpoints/yolov3_train_125.tf \
+--image ./data/20200726_020740.jpg \
+--yolo_max_boxes 300 \
+--yolo_iou_threshold 0.3 \
+--yolo_score_threshold 0.3 \
+--output ./without_mask.jpg
+
+python detect.py \
+--classes ./data/voc2012.names \
+--num_classes 3 \
+--weights ./checkpoints/yolov3_train_125.tf \
+--image ./data/20200726_020835.jpg \
+--yolo_max_boxes 300 \
+--yolo_iou_threshold 0.3 \
+--yolo_score_threshold 0.3 \
+--output ./with_mask.jpg
+
+You could also try it from a webcam:
+
+python detect_video.py \
+--video 0 \
+--classes ./data/voc2012.names \
+--weights ./checkpoints/yolov3_train_125.tf \
+--yolo_max_boxes 300 \
+--yolo_iou_threshold 0.3 \
+--yolo_score_threshold 0.3 \
+--num_classes 3
 
 - I also show how to perform inference from a jupyter notebook on Model*definition_and_training*.ipynb .
 - In order to try it from a webcam or video, please refer to the commands specified on the Yolo repo.
+
+- For visualizing the dataset you can run:
+
+python tools/visualize_dataset.py --classes=./data/voc2012.names --output visualize_dataset.jpg
 
 # How to retrain it adding more images
 
