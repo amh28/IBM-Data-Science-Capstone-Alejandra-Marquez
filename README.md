@@ -47,7 +47,11 @@ Despite the fact that there exists Face mask datasets depicting only the faces o
 
 - The weights I obtained after training, which I also used for inference and for creating the demo video from above, is on the checkpoints/ directory called: yolov3_train_125.tf
 
-- After adding and replacing those files, you can perform inference on an Image. Here are some examples:
+- After adding and replacing those files, you can visualize the dataset:
+
+python tools/visualize_dataset.py --classes=./data/voc2012.names --output visualize_dataset.jpg
+
+- You can perform inference on an image. Here are some examples:
 
 python detect.py \
 --classes ./data/voc2012.names \
@@ -69,7 +73,7 @@ python detect.py \
 --yolo_score_threshold 0.3 \
 --output ./with_mask.jpg
 
-You could also try it from a webcam:
+- You could also try it live from a webcam:
 
 python detect_video.py \
 --video 0 \
@@ -80,16 +84,9 @@ python detect_video.py \
 --yolo_score_threshold 0.3 \
 --num_classes 3
 
-- I also show how to perform inference from a jupyter notebook on Model*definition_and_training*.ipynb .
-- In order to try it from a webcam or video, please refer to the commands specified on the Yolo repo.
-
-- For visualizing the dataset you can run:
-
-python tools/visualize_dataset.py --classes=./data/voc2012.names --output visualize_dataset.jpg
-
 # How to retrain it adding more images
 
-- If you would like to retrain the network you would need to add new images and annotations to the JPEGImages and Annotations folders. Then create new train val test txt files with the new filenames and perform cross validation to create the best partition. You need to generate new training and validation TF.RECORDS for training a new network. Commands for generating them are found at the end of the Feature Preparation -Choosing train, val and test set.ipynb notebook.
+- If you would like to retrain the network you would need to add new images and annotations to the JPEGImages and Annotations folders. Then create new train val test txt files with the new filenames and perform cross validation to create the best partition. You need to generate new training and validation TF.RECORDS for training a new network. Commands for generating them are found at the end of the Feature Preparation -Choosing train, val and test set.ipynb notebook. Then you can train again as shown on the Model*definition_and_training*.ipynb notebook.
 
 - You can also change loss function to its original formulation in case it doesn't work for your problem.
 

@@ -45,7 +45,7 @@ def build_example(annotation, class_map):
             ymax.append(float(obj['bndbox']['ymax']) / height)
             classes_text.append(obj['name'].encode('utf8'))
             classes.append(class_map[obj['name']])
-            truncated.append(int(obj['truncated']))
+#            truncated.append(int(obj['truncated']))
             views.append(obj['pose'].encode('utf8'))
 
     example = tf.train.Example(features=tf.train.Features(feature={
