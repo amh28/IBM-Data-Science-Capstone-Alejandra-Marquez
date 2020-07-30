@@ -98,7 +98,7 @@ IMAGE_FEATURE_MAP = {
 
 
 def parse_tfrecord(tfrecord, class_table, size):
-    YOLO_MAX_BOXES = 300
+    #YOLO_MAX_BOXES = 300
     x = tf.io.parse_single_example(tfrecord, IMAGE_FEATURE_MAP)
     x_train = tf.image.decode_jpeg(x["image/encoded"], channels=3)
     x_train = tf.image.resize(x_train, (size, size))
@@ -116,7 +116,9 @@ def parse_tfrecord(tfrecord, class_table, size):
         axis=1,
     )
 
-    paddings = [[0, YOLO_MAX_BOXES - tf.shape(y_train)[0]], [0, 0]]
+    #paddings = [[0, YOLO_MAX_BOXES - tf.shape(y_train)[0]], [0, 0]]
+    paddings = [[0, FLAGS.yolo_max_boxes - tf.shape(y_train)[0]], [0, 0]]
+    
     y_train = tf.pad(y_train, paddings)
 
     return x_train, y_train
